@@ -4,6 +4,7 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const inquirer = require("inquirer");
 const fs = require("fs");
+const team = require("./src/card")
 
 function init() {
   createManager();
@@ -51,11 +52,11 @@ function addMoreEmployees() {
   inquirer
     .prompt([
       {
-        type: "List",
-        name: "WhatToDo",
+        type: "list",
+        name: "whatToDo",
         message: "Which new team member would you like to add?",
-        choices: ["New Engineer", "New Intern", "Exit"],
-      },
+        choices: ["New Engineer", "New Intern", "Exit"]
+      }
     ])
     .then((answer) => {
       switch (answer.whatToDo) {
@@ -68,7 +69,7 @@ function addMoreEmployees() {
         default:
           exit();
       }
-    });
+    })
 }
 
 function addEngineer() {
