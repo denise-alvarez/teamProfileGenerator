@@ -86,6 +86,11 @@ function addEngineer(){
       message: "What is the engineer's Github?",
     },
   ])
+  .then(answers => {
+    const engineer = new Engineer(
+      answers.engineerName
+    );
+  });
 }
 
 init();
