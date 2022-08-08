@@ -8,7 +8,9 @@ This application a Node.js command-line application that takes in information ab
 
 ### Walkthrough Video Links
 
-[DEMO](Insert Video Link Here)
+![Drag Racing](/Develop/dist/Assets/profiles.png)
+
+[DEMO](https://youtu.be/AH5pvIDO7cU)
 
 ## Links
 [Denise Alvarez GitHub Link](https://github.com/denise-alvarez) <br/>
