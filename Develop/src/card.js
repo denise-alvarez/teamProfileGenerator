@@ -90,7 +90,7 @@ function generateTeam(employeeArray) {
   </head>
   <body>
   <header>
-  <h1> My Team </h1>
+  <h1> My Team Profiles  </h1>
   </header>
   <main class="cardContainer">
   ${manager(employeeArray)}
